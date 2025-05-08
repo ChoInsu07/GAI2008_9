@@ -1,5 +1,5 @@
 #2023106117 yujianuo
-lass Complex:
+class Complex:
     def __init__(self,a,b):
         self.a = a
         self.b = b
@@ -31,6 +31,8 @@ if __name__ == '__main__':
     A = Complex(1,2)
     B = Complex(4,2)
     print(-A)
+    print(A+B)
+    print(A-B)
     print(A*B)
     print(A+B)
     print(A-B)
